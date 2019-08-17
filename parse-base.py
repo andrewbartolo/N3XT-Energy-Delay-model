@@ -4,10 +4,10 @@ import h5py
 import numpy as np
 import sys, os
 
-from TechConfig import *
+from TechConfig_base import *
 
 
-tc = TechConfig()
+tc = TechConfig_base()
 
 csvHeaderFields = ['tCompute', 'tMem', 'tTotal', 'eActive', 'eIdle', 'eCache',
                    'eMemory', 'llcMPKI', 'nInstrs', 'nMemRds', 'nMemWrs']
